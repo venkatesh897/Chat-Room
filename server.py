@@ -8,7 +8,7 @@ server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 server.bind((host, port))
 
-server.listen()
+server.listen(2)
 
 clients = []
 nick_names = []
